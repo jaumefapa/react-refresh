@@ -1,0 +1,10 @@
+.favorite-button-container {
+  background-color: transparent;
+}
+
+.favorite-button-container button {
+  font-size: 36px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}

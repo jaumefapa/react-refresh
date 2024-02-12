@@ -1,0 +1,9 @@
+{
+  "name": "prac",
+  "version": "1.0.0",
+  "description": "Node-Postgres-React-app",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Sarah Smith",
+  "license": "ISC"
+}

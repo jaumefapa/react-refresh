@@ -1,0 +1,12 @@
+body {
+	line-height: 1;
+	background-image: url("https://images4.alphacoders.com/633/633192.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  overflow-y: scroll;
+}

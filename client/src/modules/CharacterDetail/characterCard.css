@@ -1,0 +1,55 @@
+.character-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  width: 500px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(250, 250, 250, 0.85);
+}
+
+.character-card-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.character-card-name-sub {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.character-card-name {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.character-card-info-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+
+.character-card-info {
+  width: 100%;
+  display: flex;
+  margin: 10px 40px;
+  justify-content: space-around;
+}
+
+.character-card-sub p {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.character-card-sub p span {
+  font-weight: 200;
+}

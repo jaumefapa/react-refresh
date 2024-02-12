@@ -1,0 +1,46 @@
+.loadingBar-container {
+  position: fixed;
+  margin-top: 60px;
+  width: 100vw;
+  z-index: 1;
+}
+
+.loadingBar-progress-bar {
+  height: 8px;
+  background-image: 
+     linear-gradient(to right, 
+       #003d35, #028b7b, #003d35, 
+       #028b7b, #003d35, #028b7b );
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.loadingBar-progress-infinite .loadingBar-progress-bar { 	 
+  width: 100%; 
+  background-image: 
+    linear-gradient(to right, #003d35, #028b7b, #003d35, #028b7b, #003d35, #028b7b);
+  animation: colorAnimation 1s infinite;
+}
+
+@keyframes colorAnimation {
+  0% { 
+    background-image: 
+    linear-gradient(to right, #003d35, #028b7b, #003d35, #028b7b, #003d35, #028b7b);
+  }
+  20% { 
+    background-image: 
+    linear-gradient(to right, #028b7b, #003d35, #028b7b, #003d35, #028b7b , #003d35);
+  }
+  40% { 
+    background-image: 
+    linear-gradient(to right, #003d35, #028b7b, #003d35, #028b7b , #003d35, #028b7b);
+  }
+  60% { 
+    background-image: 
+    linear-gradient(to right, #028b7b, #003d35, #028b7b, #003d35, #028b7b, #003d35);
+  }
+  100% { 
+    background-image: 
+    linear-gradient(to right, #003d35, #028b7b, #003d35, #028b7b, #003d35, #028b7b);
+  }
+}

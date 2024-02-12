@@ -1,0 +1,16 @@
+.button-component {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #028b7b;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  border: 0px solid transparent;
+}
+
+.button-component:hover {
+  background-color: #015e52;
+  transition: background-color 1s ease;
+}

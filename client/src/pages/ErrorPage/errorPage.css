@@ -1,0 +1,30 @@
+.error-page-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(250, 250, 250, 0.85);
+
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.error-page-redirect-sub {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.error-page-redirect-sub * {
+  margin-right: 30px;
+}
