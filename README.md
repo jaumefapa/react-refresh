@@ -17,7 +17,7 @@
 
 ## Database (Optional)
 
-There's a docker-compose file in the root file that can be used to create a database.
+There's a docker-compose file in the root file that can be used to create a Postregres database instance.
 
 1. Run `docker-compose build` for building the images
 2. Run `docker-compose up` for running the database
