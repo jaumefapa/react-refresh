@@ -12,6 +12,11 @@ export default function Login() {
     userInfo: { token },
   } = useAppSelector(state => state.auth)
   const navigate = useNavigate()
+  const alreadyAuthenticated = !!localStorage.getItem(TOKEN_STORAGE_KEY) || token;
+
+  useEffect(() => {
+    if (alreadyAuthenticated) navigate(URLS.CHARACTERS_CATALOGUE)
+  }, [alreadyAuthenticated, navigate]);
 
   useEffect(() => {
     if (success) {

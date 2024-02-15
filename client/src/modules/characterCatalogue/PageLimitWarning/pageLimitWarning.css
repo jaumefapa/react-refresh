@@ -1,0 +1,9 @@
+.pageLimitWarning-card { 
+  margin: 100px; 
+  margin-top: 0;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.85);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}

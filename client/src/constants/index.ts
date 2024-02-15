@@ -7,3 +7,4 @@ export const URLS = {
 }
 
 export const TOKEN_STORAGE_KEY = 'token'
+export const MAX_CHARACTERS_PAGE = 40
