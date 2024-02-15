@@ -6,7 +6,8 @@
 2. Create a .env file based on .env.example
 3. Fill with your credentials (SQL database)
 4. Install dependencies `npm run install`
-5. Run `npm run dev`
+5. Generate the Prisma migrations files (onlye the 1st time) `npx prisma generate`
+6. Run `npm run dev`
 
 ## Client
 
